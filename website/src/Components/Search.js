@@ -3,10 +3,11 @@ import React, {Component} from 'react'
 
 class Search extends Component{
 
+
   render(){
     return(
       <div className = "search">
-      <input type = "text" placeholder = "Search your favorite game"/>
+      <input type = "text" placeholder = "Search your favorite game" />
       </div>
     )
   }

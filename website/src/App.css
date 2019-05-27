@@ -21,6 +21,64 @@ margin: 0;
 overflow: hidden;
 }
 
+.blog{
+background-image: url(../src/assets/accra2.jpg);
+background-size: 100%;
+min-height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+margin: 0;
+overflow: hidden;
+}
+
+.about{
+  background-image: url(../src/assets/not.jpg);
+  background-size: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.aboutbody{
+    margin-top: 10%;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.blogbody{
+  margin-top: 10%;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.contact{
+background-image: url(../src/assets/share.jpg);
+background-size: 100%;
+min-height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+margin: 0;
+overflow: hidden;
+}
+
+.side1{
+  font-size: 1.2em;
+  margin-top: 5%;
+}
+.contactForm{
+  margin-top: -10px;
+}
+.thank{
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+}
+.contact_body{
+  margin-top: 5%;
+}
+
 .btn-large{
   margin-top: 2%;
 }
@@ -67,7 +125,7 @@ overflow: hidden;
   font-size: 1.5em;
   color: #fff;
 }
-input[type=text]{
+input[type=text]:focus{
   font-size: 2em;
   color: #fff;
 }

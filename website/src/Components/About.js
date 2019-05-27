@@ -3,7 +3,8 @@ import React from 'react'
 
 const About = () =>{
   return(
-    <div>
+    <div className = "about">
+    <div className = "aboutbody">
     <h2>About</h2>
     Lorem ipsum dolor sit amet, eos id eros facer facete.
     Partem ancillae propriae ei nam, cu qui debitis detracto.
@@ -12,6 +13,7 @@ const About = () =>{
     Intellegat sadipscing qui ad, habemus tibique at est. Est quas malis ridens te, eu fugit habemus patrioque vix.
      Eam odio vidisse mediocritatem cu, nam postulant petentium at, cu eos ipsum quaerendum.
       Mei purto noluisse partiendo te, sed legendos expetenda scribentur no.
+    </div>
     </div>
   )
 }
